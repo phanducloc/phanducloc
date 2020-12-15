@@ -1,0 +1,255 @@
+/* CSS Document */
+@media screen and (min-width: 1230px){
+	.container{
+		width:1200px
+	}
+}
+@media screen and (max-width:414px){
+	.container{
+		width:345px;
+		margin: 0 auto;
+	}
+	#scroll-top{
+		padding: 8px 14px;
+  		border-radius: 50%;
+  		font-size: 15px; 
+	}
+/*	HEADER*/
+	header{
+		height:100%;		
+		
+	}
+	.header-align-row{
+		margin: 0 auto;
+		text-align: center;
+	}
+	.header-row h1{
+		font-size: 32px;
+		line-height: 1.4
+	}
+	.header-row h4{
+		font-size:15px
+	}
+	.scroll-down{
+		font-size:1.8em;
+		left:46%
+	}
+	.header-row .line{
+		margin: 0 auto
+	}
+/*	LINE*/
+	.line{
+		width:40px;
+	}
+/*	BUTTON*/
+	button{
+		padding:10px 30px;
+		border-radius: 30px;
+		font-size: 14px
+	}
+/*	ABOUT*/
+	.col-6{
+		width:100%;
+		float:left;
+		height:auto;
+	}
+/*	ABOUT SECTION*/
+	.ab-section{
+		padding: 50px 0;
+	}
+	.ab-section figure{
+		height:auto;
+		border:2px solid #374A9F;
+	box-shadow: 5px 5px 0px 1px #374A9F;
+	}
+	.ab-section figure img{
+	width:100%;
+	}
+	.ab-row{
+	height:auto;
+	display: table;
+	padding-top: 30px;
+/*	background: #F9F99A*/
+	}
+	.ab-row h2{
+		font-size:27px
+	}
+	.ab-out{
+		padding: 0;
+	}
+/*	SERVICE SECTION*/
+	.col-4{
+		width:100%;
+	}
+	.ser-section{
+		padding:0;
+		margin-top: 30px
+	}
+/*	WORK*/
+	#work{
+		padding-top:50px;
+	}
+	.gal{
+		
+	}
+	.gal-box{
+		width:100%;
+		height:345px;
+		margin: 15px 0;
+	}
+/*	FEEDBACK*/
+	#feedback{
+		width:100%;
+		margin:0 auto;
+	}
+	.feed{
+		width:80%;
+		padding:50px 0px 0 20px;
+		box-sizing: border-box;
+		height: 440px
+	}
+	.feed-img{
+		width: auto;
+		height:50px;
+	}
+	.feed-box{
+		width:50px;
+		height:50px
+	}
+	.feed-text{
+		width:90%;
+		padding: 20px 40px;
+		margin-top:40px
+	}
+	.feed-text p{
+		font-size:15px
+	}
+	.feed-text h6{
+		font-size: 15px
+	}
+/*	BRAND*/
+	.brand{
+		width: 100%;
+		padding: 0;
+		float: left;
+		margin-top:120px;
+		text-align: center;
+/*		background: #FFCCCC*/
+	}
+	.brand .section-title{
+		text-align: center;
+		box-sizing: border-box;
+	}
+	.brand .line{
+		margin:0 auto
+	}
+	.brand-box-out{
+		width:100%;
+		height: auto
+	}
+	.brand-box{
+		width: 50%;
+/*		height:auto*/
+	}
+	.box-color{
+	background: #fbebea
+	}
+/*	BLOG*/
+	#blog{
+		width:100%
+	}
+	.col-4-1{
+		width:100%;
+		margin-left: 0
+	}
+	.blogs-row{
+		display:table
+	}
+	.blog-row{
+		margin:100px 0
+	}
+	.blog-row{
+		text-align: center
+	}
+	.blog-row .line{
+		margin: 0 auto
+	}
+	.blog-text-space{
+		margin-bottom: 40px
+	}
+/*	FOOTER*/
+	footer{
+		padding: 50px 0
+	}
+	.ft-privacy{
+		display: none
+	}
+	.ft-mobile{
+		display: block;
+		margin:30px 0;
+	}
+/*	-----NAVIGATION MOBILE*/
+	.nav-desktop{
+		display: none
+	}
+	.nav-mobile{
+		display: inherit
+	}
+	.mobile-container {
+  max-width: 100%;
+  margin: auto;
+/*  background-color: #555;*/
+/*  height: 500px;*/
+  color: white;
+  border-radius: 10px;
+	margin-top:-30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.8);
+/*	màu nền toàn bộ menu*/
+  position: relative;
+/*	text-align: center*/
+	font-family: 'Poppins', sans-serif;
+}
+.topnav img{
+	height:35px;
+	margin-left: 0;
+	margin-top: 10px
+/*	background: #FFD2D3*/
+}
+.topnav #myLinks {
+  display: none;
+}
+	
+.topnav a {
+  color: #374A9F;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+/*	border: 1px solid black*/
+}
+
+.topnav a.icon {
+/*  background: black;*/
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.topnav a:hover {
+/*  background-color: #ddd;*/
+  color: #374A9F;
+}
+	#myLinks a{
+		text-align: center
+	}
+.active {
+/*  background-color: rgba(255,255,255,0.3);*/
+/*	màu nền logo và hamburger menu*/
+  color: white;
+}
+}
